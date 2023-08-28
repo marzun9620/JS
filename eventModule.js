@@ -1,6 +1,9 @@
+// eslint-disable-next-line import/extensions
+const oo = require('./eventModule_1.js');
 // listener
-emitter.on('BellRang', ({ period }) => {
+const var1 = new oo();
+var1.on('BellRang', ({ period }) => {
     console.log(`Marzun ${period}`);
 });
-
+var1.helloDot();
 // raise an event

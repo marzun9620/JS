@@ -9,4 +9,4 @@ class Class extends EventEmit {
         }, 2000);
     }
 }
-MediaElementAudioSourceNode;
+module.exports = Class;
