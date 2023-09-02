@@ -4,7 +4,9 @@
     "react": "^18.2.0"
   },
   "scripts": {
-    "start": "nodemon ./Raw_node_api_1/index_1.js"
+    "start": "NODE_ENV=staging nodemon ./JS/indexx_1",
+    "production": "NODE_ENV=production nodemon ./JS/indexx_1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "eslint": "8.2.0",
